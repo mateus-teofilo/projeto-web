@@ -1,0 +1,101 @@
+@import url('https://fonts.cdnfonts.com/css/modernspace');
+@import url('https://fonts.cdnfonts.com/css/galatia-sil');
+@import url('https://fonts.cdnfonts.com/css/hagmolya');/*   font-family: 'Hagmolya', sans-serif;*/
+@import url('https://fonts.cdnfonts.com/css/advanced-architecture');/* font-family: 'Advanced Architecture', sans-serif;*/
+* {
+    box-sizing: border-box;
+}
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    box-shadow: 0px -10px black;
+    width: 100vw;
+    height: 100vh;
+}
+.main-page{
+    background-image: url(images/leopard-animal-roar.jpg);
+    background-size: cover;
+    font-family: 'MODERNSPACE', sans-serif;
+    flex-direction: column;
+    width: 100vw;
+}
+.my-header1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'MODERNSPACE', sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    background-color: black;
+    opacity: 0.6;
+    margin: none;
+    border: none;
+}
+.text-card{
+    width: 100vw;
+    height: 85vh;
+    border: none;
+    display: flex;
+    align-items: flex-end;
+}
+.text{
+    width: 100vw;
+    background-color: rgba(0, 0, 0, 0.3);
+    align-items: flex-end;
+    box-shadow: 0px 8px 40px rgb(87, 87, 87);
+}
+.text > p{
+    font-size: 9pt;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    letter-spacing: 2px;
+    padding: 6px 11px 0px 11px;
+    text-align: center;
+}
+.alerts-topic{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(0, 0, 0);
+}
+.my-header2{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-family: 'MODERNSPACE', sans-serif;
+    color: rgb(238, 230, 230);
+    padding: 60px 0px;
+}
+.my-header2 >h1{
+    margin: 40px 0px;
+}
+.titles{
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+
+}
+.titles >h1{
+    font-family: 'Advanced Architecture', sans-serif;
+    font-size: 10pt;
+}
+.icons-alert {
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 70px;
+}
+.icons-alert >p{
+    justify-content: center;
+    align-items: center;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 0 ;
+    text-align: justify;
+}
+.icons-alert >img{
+    padding-right: 10px;
+}
